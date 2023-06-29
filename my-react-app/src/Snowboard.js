@@ -6,7 +6,8 @@ const SNOWBOARDING = () => {
             <div className="div">
                 <div className="overlap-7">
                     <div className="rectangle-3" >
-                        <h1 className="h-1">SHOP SNOWBOARDING</h1>
+                        <h1 className="h-1">SHOP <br/>
+                        SNOWBOARDING</h1>
                     </div>
                 </div>
                 <div className="overlap-2">
