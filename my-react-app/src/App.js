@@ -6,6 +6,8 @@ import Skiing from './Skiing';
 import Hockey from './Hockey'
 import Skating from './Skating'
 import Snowboarding from './Snowboard'
+import Footer from './Footer';
+import CheckOut from './CheckOut';
 
 const App = () => {
     return (
@@ -18,8 +20,10 @@ const App = () => {
                         <Route path="/hockey" element={<Hockey />}></Route>
                         <Route path="/skating" element={<Skating />}></Route>
                         <Route path="/Snowboarding" element={<Snowboarding />}></Route>
+                        <Route path="/CheckOut" element={<CheckOut />}></Route>
                     </Routes>
                 </Router>
+                <Footer/>
             </div>
     );
 }

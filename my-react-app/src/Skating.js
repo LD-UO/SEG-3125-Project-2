@@ -50,15 +50,6 @@ const SKATING = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="group-2">
-                                <div className="frame-wrapper">
-                                    <div className="frame-2">
-                                        <div className="text-wrapper-6">Location, Ottawa. ON</div>
-                                        <div className="text-wrapper-6">555-555-5555</div>
-                                        <div className="text-wrapper-6">email@email.com</div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                         <div className="group-3">
                             <div className="overlap-5">

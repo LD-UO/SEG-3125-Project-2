@@ -475,12 +475,10 @@
     font-size: 54px;
     font-weight: 700;
     height: 62px;
-    left: 948px;
+    margin-left: 25%;
     letter-spacing: 0;
     line-height: normal;
-    position: absolute;
     text-align: center;
-    top: 57px;
     white-space: nowrap;
     width: 362px;
   }

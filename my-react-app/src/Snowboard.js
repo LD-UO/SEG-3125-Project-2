@@ -6,8 +6,8 @@ const SNOWBOARDING = () => {
             <div className="div">
                 <div className="overlap-7">
                     <div className="rectangle-3" >
-                        <h1 className="h-1">SHOP <br/>
-                        SNOWBOARDING</h1>
+                        <h1 className="h-1">SHOP <br />
+                            SNOWBOARDING</h1>
                     </div>
                 </div>
                 <div className="overlap-2">
@@ -48,15 +48,6 @@ const SNOWBOARDING = () => {
                                         <div className="overlap-group-3">
                                             <div className="text-wrapper-5">More Info</div>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="group-2">
-                                <div className="frame-wrapper">
-                                    <div className="frame-2">
-                                        <div className="text-wrapper-6">Location, Ottawa. ON</div>
-                                        <div className="text-wrapper-6">555-555-5555</div>
-                                        <div className="text-wrapper-6">email@email.com</div>
                                     </div>
                                 </div>
                             </div>
