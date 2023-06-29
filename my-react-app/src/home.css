@@ -95,6 +95,7 @@
   height: 541px;
   left: 0;
   width: 100%;
+  margin: 0;
 }
 
 .home .h-1 {
@@ -112,6 +113,7 @@
   width: 895px;
   padding-top: 50px;
   padding-left: 50px;
+  margin: 0;
 }
 
 .home .overlap-wrapper {
@@ -159,11 +161,14 @@
   border-color: #000000;
   border-left-style: solid;
   border-left-width: 1px;
-  height: 355px;
-  left: 1096px;
-  position: absolute;
-  top: 601px;
+  height: 348px;
+  left: 1105px;
   width: 344px;
+  position: absolute;
+}
+
+.home .hours{
+  position: relative;
 }
 
 .home .text-wrapper-4 {

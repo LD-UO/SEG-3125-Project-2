@@ -1,0 +1,487 @@
+.SKIING {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .SKIING .div {
+    background-color: #ffffff;
+    height: fit-content;
+    width: 100%;
+    overflow: hidden;
+    border: 1px none;
+    height: 1024px;
+  }
+  
+  .SKIING .group {
+    height: 68px;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  
+  .SKIING .overlap {
+    height: 68px;
+    position: relative;
+  }
+  
+  .SKIING .navbar {
+    align-items: center;
+    display: flex;
+    gap: 6px;
+    left: 16px;
+    position: relative;
+    top: 6px;
+    width: fit-content;
+  }
+  
+  .SKIING .image {
+    height: 56px;
+    min-width: 56px;
+    object-fit: cover;
+    position: relative;
+  }
+  
+  .SKIING .text-wrapper {
+    color: #f2f5f8;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    height: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    text-decoration: underline;
+    white-space: nowrap;
+    width: 157px;
+  }
+  
+  .SKIING .text-wrapper-2 {
+    color: #f2f5f8;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    height: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: 173px;
+  }
+  
+  .SKIING .img {
+    height: 46px;
+    left: 1361px;
+    object-fit: cover;
+    position: absolute;
+    top: 11px;
+    width: 53px;
+  }
+  
+  .SKIING .overlap-2 {
+    height: 696px;
+    left: -4px;
+    position: absolute;
+    top: 367px;
+    width: 100%;
+  }
+  
+  .SKIING .overlap-3 {
+    height: 696px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  
+  .SKIING .overlap-4 {
+    height: 326px;
+    left: 0;
+    position: absolute;
+    top: 370px;
+    width: 100%;
+  }
+  
+  .SKIING .frame {
+    align-items: flex-start;
+    display: flex;
+    gap: 19px;
+    left: 351px;
+    position: absolute;
+    top: 0;
+    width: fit-content;
+  }
+  
+  .SKIING .overlap-group-wrapper {
+    height: 326px;
+    min-width: 349px;
+    position: relative;
+  }
+  
+  .SKIING .overlap-group-2 {
+    background-color: #f2f5f8;
+    border: 1px solid;
+    border-color: #000000;
+    height: 326px;
+    position: relative;
+    width: 343px;
+  }
+  
+  .SKIING .div-wrapper {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height: 38px;
+    left: 208px;
+    position: absolute;
+    top: 268px;
+    width: 105px;
+  }
+  
+  .SKIING .text-wrapper-3 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    height: 21px;
+    left: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 8px;
+    white-space: nowrap;
+    width: 84px;
+  }
+  
+  .SKIING .rectangle {
+    background-color: #d9d9d9;
+    height: 169px;
+    left: 30px;
+    position: absolute;
+    top: 23px;
+    width: 282px;
+  }
+  
+  .SKIING .text-wrapper-4 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    height: 27px;
+    left: 34px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 214px;
+    width: 274px;
+  }
+  
+  .SKIING .overlap-group-3 {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height: 38px;
+    left: 31px;
+    position: absolute;
+    top: 268px;
+    width: 141px;
+  }
+  
+  .SKIING .text-wrapper-5 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    height: 18px;
+    left: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    white-space: nowrap;
+    width: 110px;
+  }
+  
+  .SKIING .overlap-wrapper {
+    height: 326px;
+    margin-right: -6px;
+    min-width: 349px;
+    position: relative;
+  }
+  
+  .SKIING .group-2 {
+    height: 68px;
+    left: 0;
+    position: absolute;
+    top: 219px;
+    width: 100%;
+  }
+  
+  .SKIING .frame-wrapper {
+    background-image: url(Assets/rectangle-2.svg);
+    background-size: 100% 100%;
+    height: 68px;
+    left: 4px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .SKIING .frame-2 {
+    align-items: flex-start;
+    display: flex;
+    gap: 6px;
+    left: 195px;
+    position: relative;
+    top: 22px;
+    width: fit-content;
+  }
+  
+  .SKIING .text-wrapper-6 {
+    color: #f2f5f8;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    height: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: 347px;
+  }
+  
+  .SKIING .group-3 {
+    height: 589px;
+    left: 3px;
+    position: absolute;
+    top: 0;
+    width: 330px;
+  }
+  
+  .SKIING .overlap-5 {
+    height: 589px;
+    position: relative;
+  }
+  
+  .SKIING .rectangle-2 {
+    background-color: #f2f5f8;
+    border-color: #0b0500;
+    border-right-style: solid;
+    border-right-width: 1px;
+    height: 589px;
+    left: 1px;
+    position: absolute;
+    top: 0;
+    width: 329px;
+  }
+  
+  .SKIING .group-wrapper {
+    height: 45px;
+    left: 1px;
+    position: absolute;
+    top: 270px;
+    width: 328px;
+  }
+  
+  .SKIING .group-4 {
+    height: 45px;
+    position: relative;
+    width: 330px;
+  }
+  
+  .SKIING .text-wrapper-7 {
+    color: #0b0500;
+    font-family: "Inter-Light", Helvetica;
+    font-size: 24px;
+    font-weight: 300;
+    height: 29px;
+    left: 44px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 8px;
+  }
+  
+  .SKIING .group-5 {
+    height: 45px;
+    left: 1px;
+    position: absolute;
+    top: 307px;
+    width: 328px;
+  }
+  
+  .SKIING .group-6 {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #000000;
+    height: 50px;
+    left: 1px;
+    position: absolute;
+    top: 102px;
+    width: 329px;
+  }
+  
+  .SKIING .group-7 {
+    height: 36px;
+    left: 29px;
+    position: relative;
+    top: 6px;
+    width: 270px;
+  }
+  
+  .SKIING .text-wrapper-8 {
+    color: #0b0500;
+    font-family: "Inter-Light", Helvetica;
+    font-size: 30px;
+    font-weight: 300;
+    height: 36px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .SKIING .text-wrapper-9 {
+    color: #0b0500;
+    font-family: "Inter-Light", Helvetica;
+    font-size: 30px;
+    font-weight: 300;
+    height: 36px;
+    left: 246px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .SKIING .group-8 {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #000000;
+    height: 50px;
+    left: 1px;
+    position: absolute;
+    top: 1px;
+    width: 329px;
+  }
+  
+  .SKIING .group-9 {
+    height: 50px;
+    left: 1px;
+    position: absolute;
+    top: 153px;
+    width: 329px;
+  }
+  
+  .SKIING .group-10 {
+    height: 36px;
+    left: 30px;
+    position: relative;
+    top: 7px;
+    width: 264px;
+  }
+  
+  .SKIING .group-11 {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #000000;
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 52px;
+    width: 329px;
+  }
+  
+  .SKIING .group-12 {
+    height: 45px;
+    left: 2px;
+    position: absolute;
+    top: 196px;
+    width: 328px;
+  }
+  
+  .SKIING .group-13 {
+    height: 45px;
+    left: 2px;
+    position: absolute;
+    top: 233px;
+    width: 328px;
+  }
+  
+  .SKIING .overlap-6 {
+    height: 326px;
+    left: 351px;
+    position: absolute;
+    top: 18px;
+    width: 1067px;
+  }
+  
+  .SKIING .text-wrapper-10 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    height: 72px;
+    left: 125px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 72px;
+    width: 119px;
+  }
+  
+  .SKIING .frame-3 {
+    align-items: flex-start;
+    display: flex;
+    gap: 19px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: fit-content;
+  }
+  
+  .SKIING .overlap-7 {
+    background-image: url(./Assets/image-4.png);
+    background-size: 100% 100%;
+    height: 299px;
+    width: 100%;
+
+  }
+  
+  .SKIING .rectangle-3 {
+    background-color: #acd9ec;
+    border-radius: 0px 0px 0px 100px;
+    height: 180px;
+    margin-right: 0;
+    top: 60;
+    width: 662px;
+    float: right;
+  }
+  
+  .SKIING .h-1 {
+    -webkit-text-stroke: 1px #0b0500;
+    color: #f2f5f8;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 54px;
+    font-weight: 700;
+    height: 62px;
+    left: 948px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 57px;
+    white-space: nowrap;
+    width: 362px;
+  }
+  
