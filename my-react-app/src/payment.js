@@ -1,16 +1,8 @@
-import './CheckOut.css'
-import { useNavigate } from "react-router-dom";
+import './payment.css'
 
-const CheckOut = () => {
-
-    let navigate = useNavigate(); 
-    const routeChange = () =>{ 
-        let path = `/payment`; 
-        navigate(path);
-      }
-
-    return (
-        <div className="CHECKOUT">
+const Payment = () => {
+    return ( 
+        <div className="PAYMENT">
             <div className="overlap-wrapper">
                 <div className="div-wrapper">
                     <div className="item-list">
@@ -40,25 +32,28 @@ const CheckOut = () => {
                     </div>
                 </div>
             </div>
-            <form action="" onSubmit={routeChange}>
+            <form action="">
                 <div className="group-4">
                     <div className="group-5">
-                        
-                        <button type='submit' className="overlap-group-2 text-wrapper-9">Continue To Payment</button>
+
+                        <input type="submit" value="Confirm" className="overlap-group-2 text-wrapper-10" />
 
                     </div>
                     <div className="frame-4">
                         <div className="group-6">
-                            <input type='text' className="overlap-group-3" name='fname' placeholder='Enter First Name' required />
+                            <input type='text' className="overlap-group-3" name='cardnumber' placeholder='Enter Card Number' required />
                         </div>
                         <div className="group-6">
-                            <input type='text' className="overlap-group-3" name='lname' placeholder='Enter Last Name' required />
+                            <input type='text' className="overlap-group-3" name='name' placeholder='Enter Name On Card' required />
                         </div>
                         <div className="group-6">
-                            <input type='email' className="overlap-group-3" name='email' placeholder='Enter Email' required />
+                            <input type='text' className="overlap-group-3" name='address' placeholder='Enter Address' required />
                         </div>
                         <div className="group-6">
-                            <input type='text' className="overlap-group-3" name='phone' placeholder='Enter Phone Number' required />
+                            <input type='text' className="overlap-group-3" name='city' placeholder='Enter City' required />
+                        </div>
+                        <div className="group-6">
+                            <input type='text' className="overlap-group-3" name='province' placeholder='Enter Province' required />
                         </div>
                     </div>
                 </div>
@@ -82,4 +77,4 @@ const CheckOut = () => {
     );
 };
 
-export default CheckOut;
+export default Payment;

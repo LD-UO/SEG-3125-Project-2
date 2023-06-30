@@ -9,44 +9,44 @@ const Skiing = () => {
                         <h1 className="h-1">SHOP SKIING</h1>
                     </div>
                 </div>
-                <div className="overlap-2">
-                    <div className="overlap-3">
-                        <div className="overlap-4">
-                            <div className="frame">
-                                <div className="overlap-group-wrapper">
-                                    <div className="overlap-group-2">
-                                        <div className="div-wrapper">
-                                            <div className="text-wrapper-3">Buy</div>
-                                        </div>
-                                        <div className="rectangle" />
-                                        <div className="text-wrapper-4">Item Name</div>
-                                        <div className="overlap-group-3">
-                                            <div className="text-wrapper-5">More Info</div>
-                                        </div>
+            </div>
+            <div className="overlap-2">
+                <div className="overlap-3">
+                    <div className="overlap-4">
+                        <div className="frame">
+                            <div className="overlap-group-wrapper">
+                                <div className="overlap-group-2">
+                                    <div className="div-wrapper">
+                                        <div className="text-wrapper-3">Buy</div>
+                                    </div>
+                                    <div className="rectangle" />
+                                    <div className="text-wrapper-4">Item Name</div>
+                                    <div className="overlap-group-3">
+                                        <div className="text-wrapper-5">More Info</div>
                                     </div>
                                 </div>
-                                <div className="overlap-group-wrapper">
-                                    <div className="overlap-group-2">
-                                        <div className="div-wrapper">
-                                            <div className="text-wrapper-3">Buy</div>
-                                        </div>
-                                        <div className="rectangle" />
-                                        <div className="text-wrapper-4">Item Name</div>
-                                        <div className="overlap-group-3">
-                                            <div className="text-wrapper-5">More Info</div>
-                                        </div>
+                            </div>
+                            <div className="overlap-group-wrapper">
+                                <div className="overlap-group-2">
+                                    <div className="div-wrapper">
+                                        <div className="text-wrapper-3">Buy</div>
+                                    </div>
+                                    <div className="rectangle" />
+                                    <div className="text-wrapper-4">Item Name</div>
+                                    <div className="overlap-group-3">
+                                        <div className="text-wrapper-5">More Info</div>
                                     </div>
                                 </div>
-                                <div className="overlap-wrapper">
-                                    <div className="overlap-group-2">
-                                        <div className="div-wrapper">
-                                            <div className="text-wrapper-3">Buy</div>
-                                        </div>
-                                        <div className="rectangle" />
-                                        <div className="text-wrapper-4">Item Name</div>
-                                        <div className="overlap-group-3">
-                                            <div className="text-wrapper-5">More Info</div>
-                                        </div>
+                            </div>
+                            <div className="overlap-wrapper">
+                                <div className="overlap-group-2">
+                                    <div className="div-wrapper">
+                                        <div className="text-wrapper-3">Buy</div>
+                                    </div>
+                                    <div className="rectangle" />
+                                    <div className="text-wrapper-4">Item Name</div>
+                                    <div className="overlap-group-3">
+                                        <div className="text-wrapper-5">More Info</div>
                                     </div>
                                 </div>
                             </div>
