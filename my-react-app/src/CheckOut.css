@@ -1,0 +1,434 @@
+.CHECKOUT {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.CHECKOUT .overlap-wrapper {
+    background-color: #ffffff;
+    border: 1px none;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.CHECKOUT .overlap {
+    height: 1024px;
+    left: -4px;
+    position: relative;
+    width: 100%;
+}
+
+.CHECKOUT .overlap-group {
+    width: 100%;
+}
+
+.CHECKOUT .group {
+    height: 68px;
+    width: 100%;
+}
+
+.CHECKOUT .overlap-group-wrapper {
+    height: 68px;
+}
+
+.CHECKOUT .navbar-wrapper {
+    background-image: url(Assets/rectangle-1.svg);
+    background-size: 100% 100%;
+    height: 68px;
+    width: 100%;
+}
+
+.CHECKOUT .navbar {
+    align-items: center;
+    display: flex;
+    gap: 6px;
+    left: 16px;
+    position: relative;
+    top: 6px;
+    width: fit-content;
+}
+
+.CHECKOUT .image {
+    height: 56px;
+    min-width: 56px;
+    object-fit: cover;
+    position: relative;
+}
+
+.CHECKOUT .text-wrapper {
+    color: #f2f5f8;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    height: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: 157px;
+}
+
+.CHECKOUT .div {
+    color: #f2f5f8;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    height: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: 173px;
+}
+
+.CHECKOUT .group-2 {
+    height: 68px;
+    left: 0;
+    position: absolute;
+    top: 956px;
+    width: 100%;
+}
+
+.CHECKOUT .frame-wrapper {
+    background-image: url(Assets/rectangle-2.svg);
+    background-size: 100% 100%;
+    height: 68px;
+    left: 4px;
+    position: relative;
+    width: 100%;
+}
+
+.CHECKOUT .frame {
+    align-items: flex-start;
+    display: flex;
+    gap: 6px;
+    left: 195px;
+    position: relative;
+    top: 22px;
+    width: fit-content;
+}
+
+.CHECKOUT .text-wrapper-2 {
+    color: #f2f5f8;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    height: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: 347px;
+}
+
+.CHECKOUT .img {
+    display: block;
+    height: 46px;
+    left: 1370px;
+    object-fit: cover;
+    position: absolute;
+    top: 11px;
+    width: 53px;
+}
+
+.CHECKOUT .rectangle {
+    background-color: #ffffff;
+    border-color: #000000;
+    border-right-style: solid;
+    border-right-width: 1px;
+    height: 890px;
+    width: 652px;
+    position: relative;
+}
+
+.CHECKOUT .rectangle-2 {
+    background-color: #d9d9d9;
+    height: 240px;
+    left: 4px;
+    position: absolute;
+    top: 68px;
+    width: 650px;
+}
+
+.CHECKOUT .div-wrapper {
+    background-color: #f2f5f8;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-color: #000000;
+    width: 650px;
+}
+
+.CHECKOUT .frame-2 {
+    align-items: center;
+    display: flex;
+    gap: 72px;
+    padding-top: 10%;
+    width: fit-content;
+}
+
+.CHECKOUT .rectangle-3 {
+    background-color: #d9d9d9;
+    height: 145px;
+    min-width: 217px;
+    position: relative;
+}
+
+.CHECKOUT .frame-3 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    width: fit-content;
+}
+
+.CHECKOUT .text-wrapper-3 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    height: 47px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    text-align: center;
+    width: 232px;
+}
+
+.CHECKOUT .group-3 {
+    background-color: #f2f5f8;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #000000;
+    height: 210px;
+    width: 100%;
+}
+
+.CHECKOUT .rectangle-4 {
+    background-color: #d9d9d9;
+    border-color: #000000;
+    border-top-style: solid;
+    border-top-width: 1px;
+    height: 95px;
+    width: 651px;
+}
+
+.CHECKOUT .tax-total {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 26px;
+    font-weight: 400;
+    height: auto;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+    width: 150px;
+}
+
+.CHECKOUT .group-4 {
+    background-color: #f2f5f8;
+    border-radius: 10px;
+    height: 560px;
+    left: 748px;
+    position: absolute;
+    top: 285px;
+    width: 596px;
+}
+
+.CHECKOUT .group-5 {
+    height: 73px;
+    left: 84px;
+    position: absolute;
+    top: 457px;
+    width: 429px;
+}
+
+.CHECKOUT .overlap-group-2 {
+    background-color: #3c83b9;
+    border-radius: 10px;
+    height: 73px;
+    position: relative;
+    width: 427px;
+}
+
+.CHECKOUT .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 26px;
+    font-weight: 400;
+    height: 25px;
+    left: 62px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 24px;
+    white-space: nowrap;
+    width: 304px;
+}
+
+.CHECKOUT .frame-4 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    left: 54px;
+    position: absolute;
+    top: 48px;
+    width: fit-content;
+}
+
+.CHECKOUT .group-6 {
+    height: 60px;
+    margin-right: -2px;
+    min-width: 489px;
+    position: relative;
+}
+
+.CHECKOUT .overlap-group-3 {
+    background-color: #f2f5f8;
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 10px;
+    height: 60px;
+    position: relative;
+    width: 487px;
+    background-color: #ffffff;
+    padding-left: 10%;
+    font-size: large;
+}
+
+.CHECKOUT .text-wrapper-6 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 26px;
+    font-weight: 400;
+    height: 32px;
+    left: 33px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 14px;
+    width: 141px;
+}
+
+.CHECKOUT .text-wrapper-7 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 26px;
+    font-weight: 400;
+    height: 32px;
+    left: -1px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 14px;
+    width: 141px;
+}
+
+.CHECKOUT .group-7 {
+    height: 70px;
+    left: 946px;
+    position: absolute;
+    top: 170px;
+    width: 199px;
+}
+
+.CHECKOUT .overlap-2 {
+    height: 70px;
+    position: relative;
+    width: 201px;
+}
+
+.CHECKOUT .rectangle-5 {
+    background-color: #d9d9d9;
+    height: 10px;
+    left: 64px;
+    position: absolute;
+    top: 30px;
+    width: 75px;
+}
+
+.CHECKOUT .group-8 {
+    height: 70px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 72px;
+}
+
+.CHECKOUT .overlap-group-4 {
+    background-color: #3c83b9;
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 35px;
+    height: 70px;
+    position: relative;
+    width: 70px;
+}
+
+.CHECKOUT .text-wrapper-8 {
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    height: 24px;
+    left: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 21px;
+    white-space: nowrap;
+}
+
+.CHECKOUT .group-9 {
+    height: 70px;
+    left: 129px;
+    position: absolute;
+    top: 0;
+    width: 72px;
+}
+
+.CHECKOUT .overlap-3 {
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 35px;
+    height: 70px;
+    position: relative;
+    width: 70px;
+}
+
+.CHECKOUT .text-wrapper-9 {
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    height: 50px;
+    left: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 21px;
+    white-space: nowrap;
+}
+
+.CHECKOUT .item-list{
+    height: 750px;
+    overflow-y: scroll;
+    border-color: #000000;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
