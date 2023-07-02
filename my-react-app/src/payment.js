@@ -1,7 +1,14 @@
 import './payment.css'
+import { useNavigate } from "react-router-dom";
 
 const Payment = () => {
-    return ( 
+    let navigate = useNavigate();
+    const routeChange = () => {
+        let path = `/thankyou`;
+        navigate(path);
+    }
+
+    return (
         <div className="PAYMENT">
             <div className="overlap-wrapper">
                 <div className="div-wrapper">
@@ -32,7 +39,7 @@ const Payment = () => {
                     </div>
                 </div>
             </div>
-            <form action="">
+            <form action="" onSubmit={routeChange}>
                 <div className="group-4">
                     <div className="group-5">
 

@@ -3,11 +3,11 @@ import { useNavigate } from "react-router-dom";
 
 const CheckOut = () => {
 
-    let navigate = useNavigate(); 
-    const routeChange = () =>{ 
-        let path = `/payment`; 
+    let navigate = useNavigate();
+    const routeChange = () => {
+        let path = `/payment`;
         navigate(path);
-      }
+    }
 
     return (
         <div className="CHECKOUT">
@@ -43,7 +43,7 @@ const CheckOut = () => {
             <form action="" onSubmit={routeChange}>
                 <div className="group-4">
                     <div className="group-5">
-                        
+
                         <button type='submit' className="overlap-group-2 text-wrapper-9">Continue To Payment</button>
 
                     </div>

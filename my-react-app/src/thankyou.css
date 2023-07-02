@@ -1,0 +1,11 @@
+.THANKYOU h1{
+    font-size: 500%;
+    text-align: center;
+    text-justify: auto;
+    margin: 15%;
+}
+
+.THANKYOU .title-text-wapper{
+    width: 100%;
+    justify-content: center;
+}

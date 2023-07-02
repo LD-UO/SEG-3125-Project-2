@@ -9,6 +9,8 @@ import Snowboarding from './Snowboard'
 import Footer from './Footer';
 import CheckOut from './CheckOut';
 import Payment from './payment';
+import ThankYou from './thankyou.js';
+import ItemInfo from './itemInfo';
 
 const App = () => {
     return (
@@ -23,6 +25,8 @@ const App = () => {
                         <Route path="/Snowboarding" element={<Snowboarding />}></Route>
                         <Route path="/CheckOut" element={<CheckOut />}></Route>
                         <Route path="/payment" element={<Payment />}></Route>
+                        <Route path="/thankyou" element={<ThankYou />}></Route>
+                        <Route path="/itemInfo" element={<ItemInfo />}></Route>
                     </Routes>
                 </Router>
                 <Footer/>
