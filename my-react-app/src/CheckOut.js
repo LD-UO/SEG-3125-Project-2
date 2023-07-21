@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import './CheckOut.css'
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Routes, Route } from "react-router-dom";
 import Cart from './cart.js'
+import React from 'react';
+
 
 const CheckOut = () => {
 
@@ -11,22 +13,10 @@ const CheckOut = () => {
         navigate(path);
     }
 
-    const [items, setItems] = useState({})
-
-    const addItem = (newItem) => {
-        const newItems = items + newItem // IDK IF THIS WILL WORK
-        setItems(newItems)
-    }
-
-    const delItem = (id) => {
-        const newItems = items.filter(item => item.id !== id)
-        setItems(newItems)
-    }
-
     return (
         <div className="CHECKOUT">
             <div className="overlap-wrapper">
-                <Cart/>
+                <Cart />
             </div>
             <form action="" onSubmit={routeChange}>
                 <div className="group-4">

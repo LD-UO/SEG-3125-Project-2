@@ -25,7 +25,8 @@ function ItemInfo() {
 
 
     let Navigate = useNavigate();
-    const routeChange = () => {
+    const routeChangeToBuy = () => {
+        sessionStorage.setItem(name,[name,price,image]);
         let path = `/checkout`;
         Navigate(path);
     }
@@ -61,7 +62,7 @@ function ItemInfo() {
                         </p>
                     </div>
                     <div className="button-wrapper">
-                        <button type="button" onClick={routeChange} id="checkoutNow" className="item-button">Checkout Now</button>
+                        <button type="button" onClick={routeChangeToBuy} id="checkoutNow" className="item-button">Checkout Now</button>
                     </div>
                 </div>
 

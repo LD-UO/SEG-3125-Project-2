@@ -19,6 +19,9 @@ export const navBar = () => {
                                 </div>
                             </div>
                         </div>
+                        <a href="/fr">
+                            <img className="img2" src={require("./Assets/langIcon.png")} alt="" />
+                        </a>
                         <a href="/checkout">
                             <img className="img" alt="Image" src={require("./Assets/ShoppingCartImage.png")} />
                         </a>

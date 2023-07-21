@@ -223,18 +223,6 @@
     width: 651px;
 }
 
-.PAYMENT .tax-total {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 26px;
-    font-weight: 400;
-    height: auto;
-    letter-spacing: 0;
-    line-height: normal;
-    text-align: center;
-    width: 150px;
-    display: inline-block;
-}
 
 .PAYMENT .group-4 {
     background-color: #f2f5f8;

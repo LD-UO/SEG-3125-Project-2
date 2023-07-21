@@ -223,7 +223,7 @@
     width: 651px;
 }
 
-.CHECKOUT .tax-total {
+.tax-total {
     color: #000000;
     font-family: "Inter-Regular", Helvetica;
     font-size: 26px;
@@ -232,8 +232,9 @@
     letter-spacing: 0;
     line-height: normal;
     text-align: center;
-    width: 150px;
+    width: auto;
     display: inline-block;
+    margin-left: 2.5%;
 }
 
 .CHECKOUT .group-4 {
