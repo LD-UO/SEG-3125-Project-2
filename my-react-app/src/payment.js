@@ -1,5 +1,6 @@
 import './payment.css'
 import { useNavigate } from "react-router-dom";
+import Cart from './cart';
 
 const Payment = () => {
     let navigate = useNavigate();
@@ -11,34 +12,8 @@ const Payment = () => {
     return (
         <div className="PAYMENT">
             <div className="overlap-wrapper">
-                <div className="div-wrapper">
-                    <div className="item-list">
-                        <div className="group-3">
-                            <div className="frame-2">
-                                <div className="frame-3">
-                                    <div className="text-wrapper-3">Item Name</div>
-                                    <div className="text-wrapper-3">Cost: $$$</div>
-                                </div>
-                            </div>
-                        </div> <div className="group-3">
-                            <div className="frame-2">
-                                <div className="frame-3">
-                                    <div className="text-wrapper-3">Item Name</div>
-                                    <div className="text-wrapper-3">Cost: $$$</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div >
-                        <h1 className="tax-total">
-                            Tax: $$$
-                        </h1>
-                        <h1 className="tax-total">
-                            Total: $$$
-                        </h1>
-                    </div>
+                <Cart />
                 </div>
-            </div>
             <form action="" onSubmit={routeChange}>
                 <div className="group-4">
                     <div className="group-5">

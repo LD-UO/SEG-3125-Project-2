@@ -1,11 +1,18 @@
 .THANKYOU h1{
     font-size: 500%;
     text-align: center;
-    text-justify: auto;
-    margin: 15%;
+    text-justify: center;
+    margin: 0%;
 }
 
-.THANKYOU .title-text-wapper{
+.THANKYOU .title-text-wrapper{
+    padding-top: 15%;
+    padding-bottom: 15%;
     width: 100%;
     justify-content: center;
+}
+
+.THANKYOU p{
+    text-align: center;
+    text-justify: center;
 }

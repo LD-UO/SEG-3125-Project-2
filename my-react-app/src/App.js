@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import NavBar from './navBar';
 import Home from './home';
+import HomeFR from './homefr';
 import Skiing from './Skiing';
 import Hockey from './Hockey'
 import Skating from './Skating'
@@ -19,6 +20,8 @@ const App = () => {
                 <Router>
                     <Routes>
                         <Route path="/" element={<Home />}></Route>
+                        <Route path="/en" element={<Home />}></Route>
+                        <Route path="/fr" element={<HomeFR />}></Route>
                         <Route path="/skiing" element={<Skiing />}></Route>
                         <Route path="/hockey" element={<Hockey />}></Route>
                         <Route path="/skating" element={<Skating />}></Route>

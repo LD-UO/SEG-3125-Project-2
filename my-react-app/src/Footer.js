@@ -8,9 +8,9 @@ const Footer = () => {
         <div className="group">
           <div className="overlap-group">
             <div className="frame">
-              <div className="text-wrapper">Location, Ottawa. ON</div>
-              <div className="text-wrapper">555-555-5555</div>
-              <div className="text-wrapper">email@email.com</div>
+              <div className="text-wrapper">16 George St, Ottawa. ON</div>
+              <div className="text-wrapper">921-334-5535</div>
+              <div className="text-wrapper">snowbound.essentials@email.com</div>
             </div>
           </div>
         </div>

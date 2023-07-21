@@ -48,7 +48,6 @@
     justify-content: center;
     left: 16px;
     position: relative;
-    top: 6px;
     width: fit-content;
   }
   
@@ -57,7 +56,6 @@
     min-width: 56px;
     object-fit: cover;
     position: relative;
-    padding-left: 10px;
   }
   
   .box .text-wrapper {

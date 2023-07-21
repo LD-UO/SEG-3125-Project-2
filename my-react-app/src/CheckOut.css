@@ -170,7 +170,7 @@
 
 .CHECKOUT .frame-2 {
     align-items: center;
-    display: flex;
+    display: inline-block;
     gap: 72px;
     padding-top: 10%;
     width: fit-content;
@@ -211,6 +211,7 @@
     border-color: #000000;
     height: 210px;
     width: 100%;
+    display: flex;
 }
 
 .CHECKOUT .rectangle-4 {
@@ -241,7 +242,7 @@
     height: 560px;
     left: 748px;
     position: absolute;
-    top: 250px;
+    top: 230px;
     width: 596px;
 }
 
@@ -426,10 +427,24 @@
     white-space: nowrap;
 }
 
-.CHECKOUT .item-list{
+.item-list{
     height: 700px;
     overflow-y: scroll;
     border-color: #000000;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    width: 45%;
+}
+
+.cart .item-image{
+    display: inline-flex;
+    height: fit-content;
+    width: 60%;
+    align-self: center;
+    justify-content: center;
+}
+
+.cart img{
+    width: 30%;
+    align-self: center;
 }

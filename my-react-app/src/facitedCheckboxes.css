@@ -1,0 +1,8 @@
+.item-cards{
+    display: inline-block;
+    width: 50%;
+}
+
+.item-wrapper{
+    height: 610px;
+}

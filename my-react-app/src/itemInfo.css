@@ -54,7 +54,8 @@
 }
 
 .small-attributes {
-    justify-content: left;
+    justify-content: space-between;
+    display: flex;
 }
 
 .button-wrapper {
@@ -79,7 +80,6 @@
 
 .title-box {
     background-color: #acd9ec;
-    float: right;
     border-radius: 0 0 0 100px;
     width: 100%;
     display: flex;
@@ -110,7 +110,7 @@
 }
 
 .item-preview-wrapper {
-    width: 50%;
+    width: 100%;
     display: inline-block;
 }
 
@@ -176,7 +176,7 @@
     border-color: #000000;
     border-radius: 10px;
     height: 40px;
-    width: 7%;
+    width: 15%;
     background-color: #ffffff;
     padding-left: 10px;
     font-size: medium;
@@ -186,7 +186,7 @@
     background-color: #3c83b9;
     border-radius: 10px;
     height: 40px;
-    width: 10%;
+    width: 20%;
     font-size: small;
     color: #ffffff;
 }
@@ -202,7 +202,7 @@
 .ITEMINFO .review-list {
     margin-top: 5%;
     overflow-y: scroll;
-    max-height: 300px;
+    max-height: 500px;
     border: black;
     border-style: solid;
 }

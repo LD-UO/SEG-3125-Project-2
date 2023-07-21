@@ -1,8 +1,10 @@
 import './home.css';
+import NavBar from './navBarFr';
 
 function App() {
   return (
     <div className="home">
+      <NavBar />
       <div className="div">
         <div className="h-1-wrapper">
           <h1 className="h-1">Snowbound Essentials</h1>

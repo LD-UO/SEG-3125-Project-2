@@ -170,7 +170,7 @@
 
 .PAYMENT .frame-2 {
     align-items: center;
-    display: flex;
+    display: inline-block;
     gap: 72px;
     padding-top: 10%;
     width: fit-content;
@@ -211,6 +211,7 @@
     border-color: #000000;
     height: 210px;
     width: 100%;
+    display: flex;
 }
 
 .PAYMENT .rectangle-4 {
@@ -241,7 +242,7 @@
     height: 660px;
     left: 748px;
     position: absolute;
-    top: 250px;
+    top: 230px;
     width: 596px;
 }
 
@@ -440,10 +441,3 @@
     white-space: nowrap;
 }
 
-.PAYMENT .item-list{
-    height: 800px;
-    overflow-y: scroll;
-    border-color: #000000;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-}
