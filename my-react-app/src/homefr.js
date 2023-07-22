@@ -3,11 +3,11 @@ import NavBar from './navBarFr';
 
 function App() {
   return (
-    <div className="home">
+    <main className="home">
       <NavBar />
-      <div className="div">
+      <section>
         <div className="h-1-wrapper">
-          <h1 className="h-1">Snowbound Essentials</h1>
+          <h1 className="h-1">Essentiels de l’hiver</h1>
         </div>
         <p className="embrace-winter-with">
           Embrassez l’hiver avec Snowbound Essentials! Votre destination incontournable pour tous vos sports d’hiver
@@ -26,8 +26,8 @@ function App() {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
   )
 }
 

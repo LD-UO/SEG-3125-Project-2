@@ -65,7 +65,6 @@ function ItemInfo() {
                         <button type="button" onClick={routeChangeToBuy} id="checkoutNow" className="item-button">Checkout Now</button>
                     </div>
                 </div>
-
             </div>
             <div className="frame-wrapper more-like-this-wrapper">
                 <div className="title-box">

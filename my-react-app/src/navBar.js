@@ -2,7 +2,7 @@ import './navbar.css'
 
 export const navBar = () => {
     return (
-        <div className="box">
+        <div className="box" aria-label='Navigation Bar'>
             <div className="group-wrapper">
                 <div className="group">
                     <div className="overlap">
@@ -22,7 +22,7 @@ export const navBar = () => {
                         <a href="/fr">
                             <img className="img2" src={require("./Assets/langIcon.png")} alt="" />
                         </a>
-                        <a href="/checkout">
+                        <a className="checkout-button" href="/checkout">
                             <img className="img" alt="Image" src={require("./Assets/ShoppingCartImage.png")} />
                         </a>
                     </div>

@@ -6,7 +6,7 @@
   width: 100%;
 }
 
-.home .div {
+.home section {
   background-color: #ffffff;
   border: 1px none;
   height: 870px;
@@ -84,7 +84,7 @@
   height: 46px;
   left: 1373px;
   object-fit: cover;
-  position: absolute;
+  position: fixed;
   top: 11px;
   width: 53px;
 }
@@ -212,4 +212,8 @@
   position: absolute;
   top: 675px;
   width: 749px;
+}
+
+section{
+  width: 100%;
 }

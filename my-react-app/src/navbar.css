@@ -22,7 +22,6 @@
 
 .box .overlap {
   height: 68px;
-  position: relative;
 }
 
 .box .overlap-group-wrapper {
@@ -90,15 +89,19 @@
   height: 46px;
   left: 1373px;
   object-fit: cover;
-  position: absolute;
+  position: fixed;
   top: 11px;
   width: 53px;
+}
+
+.box .checkout-button{
+  position: fixed;
 }
 
 .img2 {
   left: 1300px;
   object-fit: cover;
-  position: absolute;
+  position: fixed;
   top: 15px;
   width: 40px;
 }
